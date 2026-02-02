@@ -1,0 +1,14 @@
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\bin\Debug\net8.0\MMCarServiceSystem.Module.deps.json
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\bin\Debug\net8.0\MMCarServiceSystem.Module.runtimeconfig.json
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\bin\Debug\net8.0\MMCarServiceSystem.Module.dll
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\bin\Debug\net8.0\MMCarServiceSystem.Module.pdb
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.csproj.AssemblyReference.cache
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.AssemblyInfoInputs.cache
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.AssemblyInfo.cs
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.dll
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\refint\MMCarServiceSystem.Module.dll
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.pdb
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\MMCarServiceSystem.Module.genruntimeconfig.cache
+C:\Users\USER\Downloads\MMCarServiceSystem\MMCarServiceSystem.Module\obj\Debug\net8.0\ref\MMCarServiceSystem.Module.dll
