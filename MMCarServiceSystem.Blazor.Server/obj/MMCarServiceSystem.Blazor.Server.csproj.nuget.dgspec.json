@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj": {}
+    "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj": {
+    "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj",
         "projectName": "MMCarServiceSystem.Blazor.Server",
-        "projectPath": "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\MMCarServiceSystem.Blazor.Server.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Blazor.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 25.1\\Components\\Offline Packages",
@@ -36,8 +36,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj": {
-                "projectPath": "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj"
+              "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj": {
+    "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj",
         "projectName": "MMCarServiceSystem.Module",
-        "projectPath": "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Module\\MMCarServiceSystem.Module.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Downloads\\MMCarServiceSystem\\MMCarServiceSystem.Module\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\MMCarServiceSystem\\MMCarServiceSystem.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 25.1\\Components\\Offline Packages",
