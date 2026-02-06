@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MMCarServiceSystem.Module")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38be086317a880f71aaafb2e8f2394eb0d2d8584")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fbbef944f297bd2c9e43587073ac6f8984affe4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MMCarServiceSystem.Module")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MMCarServiceSystem.Module")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]
