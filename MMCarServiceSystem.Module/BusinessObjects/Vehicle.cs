@@ -21,6 +21,8 @@ namespace MMCarServiceSystem.Module.BusinessObjects;
 
 [DefaultClassOptions]
 [DefaultProperty(nameof(PlateNumber))]
+[NavigationItem("CustomerManagement")]
+[ImageName("Driving")]
 public class Vehicle : BaseObject
 {
     public Vehicle()

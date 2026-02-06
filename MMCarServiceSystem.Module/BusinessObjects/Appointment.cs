@@ -19,12 +19,15 @@ using System.Net.Mail;
 namespace MMCarServiceSystem.Module.BusinessObjects;
 
 [DefaultClassOptions]
+[NavigationItem("CustomerManagement")]
+[ImageName("BO_Appointment")]
 public class Appointment : BaseObject
 {
     private bool isNewObject = true;
 
     public Appointment()
     {
+
     }
 
     public virtual string CustomerName { get; set; }
@@ -69,8 +72,10 @@ public class Appointment : BaseObject
             mail.To.Add(Email); 
             mail.Subject = "Appointment Confirmation - MM Car Service System";
 
-            
+            #region -- Appointment Email Body --
             mail.Body = $@"
+
+
 Dear {CustomerName},
 
 Thank you for scheduling an appointment with MM Car Service System.
@@ -94,6 +99,7 @@ MM Car Service System Team
 ---
 This is an automated message. Please do not reply to this email.
 ";
+            #endregion
 
             mail.IsBodyHtml = false;
 

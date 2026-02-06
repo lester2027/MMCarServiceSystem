@@ -18,8 +18,9 @@ using System.Text;
 
 namespace MMCarServiceSystem.Module.BusinessObjects;
 
-
 [DefaultClassOptions]
+[NavigationItem("CustomerManagement")]
+[ImageName("Customers")]
 public class Customer : BaseObject
 {
     public Customer()

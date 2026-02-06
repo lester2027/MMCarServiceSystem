@@ -17,6 +17,8 @@ using System.Text;
 namespace MMCarServiceSystem.Module.BusinessObjects;
 
 [DefaultClassOptions]
+[NavigationItem("Services")]
+[ImageName("Travel_Car")]
 public class CarDetailingDetail : BaseObject
 {
     public CarDetailingDetail()

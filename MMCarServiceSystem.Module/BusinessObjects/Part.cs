@@ -14,8 +14,11 @@ using DevExpress.Persistent.BaseImpl.EF;
 using DevExpress.Persistent.Validation;
 
 namespace MMCarServiceSystem.Module.BusinessObjects;
+
 [DefaultClassOptions]
+[NavigationItem("Management")]
 [ModelDefault("DefaultListViewSorting", "Service;ItemName")]
+[ImageName("ViewSettings")]
 public class Part : BaseObject
 {
     private int stock;

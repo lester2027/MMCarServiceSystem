@@ -19,12 +19,15 @@ using System.Text;
 namespace MMCarServiceSystem.Module.BusinessObjects;
 
 [DefaultClassOptions]
+[NavigationItem("Financial")]
+[ImageName("BO_Invoice")]
 public class Payment : BaseObject
 {
+    #region -- Fields ---
     private Invoice invoice;
     private decimal? amount;
     private decimal? amountTendered;
-
+    #endregion
     public Payment()
     {
         DateOfPayment = DateTime.Now;
@@ -80,7 +83,8 @@ public class Payment : BaseObject
 
     public virtual PaymentStatus? PaymentStatus { get; set; }
 
-    // Card/Account Details - Visible only for Credit/Debit Card
+
+    #region --Payment Method Specific Details---
     [Appearance("Payment_CardLastFourDigits_Visible", AppearanceItemType = "ViewItem",
         Visibility = ViewItemVisibility.Hide, Context = "DetailView",
         Criteria = "ModeOfPayment != 'CreditCard' And ModeOfPayment != 'DebitCard'")]
@@ -149,12 +153,11 @@ public class Payment : BaseObject
         get => amountTendered;
         set => amountTendered = value;
     }
-
+    #endregion
     public override void OnSaving()
     {
         base.OnSaving();
 
-        // Validate amount tendered for cash payments
         if (ModeOfPayment == BusinessObjects.ModeOfPayment.Cash)
         {
             if (!AmountTendered.HasValue)
@@ -189,7 +192,6 @@ public class Payment : BaseObject
 
     public virtual string Notes { get; set; }
 
-    // Payment verification - Hidden by default
     [Appearance("Payment_IsVerified_Visible", AppearanceItemType = "ViewItem",
         Visibility = ViewItemVisibility.Hide, Context = "DetailView")]
     public virtual bool IsVerified { get; set; }
@@ -202,7 +204,6 @@ public class Payment : BaseObject
         Visibility = ViewItemVisibility.Hide, Context = "DetailView")]
     public virtual string VerifiedBy { get; set; }
 
-    // Business Logic Methods
     public void VerifyPayment(string verifiedBy)
     {
         if (PaymentStatus != BusinessObjects.PaymentStatus.Completed)

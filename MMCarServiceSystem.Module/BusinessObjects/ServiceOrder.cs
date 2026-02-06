@@ -18,16 +18,19 @@ using System.Text;
 namespace MMCarServiceSystem.Module.BusinessObjects;
 
 [DefaultClassOptions]
+[NavigationItem("Management")]
 [DefaultProperty(nameof(OrderNumber))]
+[ImageName("BO_Report")]
 public class ServiceOrder : BaseObject
 {
+    #region -- Fields --
     private Part part;
     private int quantityOfPartsUsed;
     private decimal subTotal;
     private ServiceType? serviceType;
     private decimal serviceFee;
     private decimal totalFee;
-
+    #endregion
     public ServiceOrder()
     {
         if (string.IsNullOrEmpty(OrderNumber))

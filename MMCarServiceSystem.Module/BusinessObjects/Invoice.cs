@@ -18,14 +18,17 @@ using System.Text;
 namespace MMCarServiceSystem.Module.BusinessObjects;
 
 [DefaultClassOptions]
+[NavigationItem("Financial")]
 [DefaultProperty(nameof(InvoiceNumber))]
+[ImageName("BO_Invoice")]
 public class Invoice : BaseObject
 {
+    #region -- Fields --
     private ServiceOrder serviceOrder;
     private decimal subTotal;
     private decimal taxAmount;
     private decimal totalAmount;
-
+    #endregion
     public Invoice()
     {
         InvoiceDate = DateTime.Now;
@@ -46,13 +49,11 @@ public class Invoice : BaseObject
                 serviceOrder = value;
                 if (serviceOrder != null)
                 {
-                    // Automatically set SubTotal from ServiceOrder's TotalFee
                     SubTotal = serviceOrder.TotalFee;
                     CalculateTotals();
                 }
                 else
                 {
-                    // Reset all values when ServiceOrder is cleared
                     SubTotal = 0m;
                     TaxAmount = 0m;
                     TotalAmount = 0m;
@@ -104,12 +105,11 @@ public class Invoice : BaseObject
 
     private void CalculateTotals()
     {
-        const decimal taxRate = 0.12m; // 12% tax
+        const decimal taxRate = 0.12m; 
         TaxAmount = Math.Round(SubTotal * taxRate, 2);
         TotalAmount = SubTotal + TaxAmount;
     }
 
-    // Override ToString to display InvoiceNumber instead of object ID
     public override string ToString()
     {
         return InvoiceNumber ?? base.ToString();

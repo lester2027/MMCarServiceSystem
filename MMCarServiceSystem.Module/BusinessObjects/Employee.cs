@@ -17,6 +17,8 @@ using System.Text;
 namespace MMCarServiceSystem.Module.BusinessObjects;
 
 [DefaultClassOptions]
+[NavigationItem("Management")]
+[ImageName("HybridDemo_All Employees")]
 public class Employee : BaseObject
 {
     private Department? department;
@@ -54,6 +56,7 @@ public class Employee : BaseObject
     public virtual ObservableCollection<ServiceOrder> ServiceOrders { get; set; } = new ObservableCollection<ServiceOrder>();
     public virtual ObservableCollection<Appointment> Appointments { get; set; } = new ObservableCollection<Appointment>();
 
+    #region --Methods for Calculating Hourly Rate Based on Department--
     private void UpdateHourlyRateBasedOnDepartment()
     {
         if (Department.HasValue)
@@ -75,7 +78,7 @@ public class Employee : BaseObject
         }
     }
 }
-
+#endregion
 public enum EmploymentStatus
 {
     Active,
